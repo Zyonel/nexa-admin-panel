@@ -35,7 +35,7 @@
   // Change this to your actual Render backend URL
   const backendURL = "https://sub-nexa.onrender.com";
 
-  fetch(`${backendURL}/uploads-list`)
+  fetch(`https://sub-nexa.onrender.com/uploads-list`)
     .then(res => res.json())
     .then(files => {
       const gallery = document.getElementById('gallery');
